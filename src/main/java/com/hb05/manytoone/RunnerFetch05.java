@@ -29,9 +29,7 @@ public class RunnerFetch05 {
         resultList1.forEach(s->System.out.println(s));
 
 
-        tx.commit();
-        session.close();
-        sf.close();
+
 
 
 
